@@ -3,7 +3,11 @@ applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
+<<<<<<< HEAD
       - route: pal-tracker-patient-panther.apps.evans.pal.pivotal.io
+=======
+      - route: pal-tracker-pkrish.apps.evans.pal.pivotal.io
+>>>>>>> 12ddc72b22b73a1773d3d6fb76da456c1b36eace
 
     env:
       WELCOME_MESSAGE: Hello from the review environment
